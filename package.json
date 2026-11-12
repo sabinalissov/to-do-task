@@ -2,12 +2,11 @@
   "name": "to-do-task",
   "version": "1.0.0",
   "description": "",
-  "main": "script.js",
-"scripts":{
-"start":"node api/server.js",
-"dev":"nodemon api/server.js"
-},
-   
+  "main": "server.js",
+  "scripts": {
+    "start": "node api/server.js",
+    "dev": "nodemon api/server.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sabinalissov/to-do-task.git"

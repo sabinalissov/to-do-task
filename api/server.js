@@ -4,7 +4,7 @@ const app = express();
 const port = 3000;
 
 app.use(express.json());
-app.use(express.static(path.join(__dirname, '../web')));
+app.use(express.static(path.join(__dirname, '../public')));
 
 let todos = [
   { id: 1, text: "Buy milk", done: false }
